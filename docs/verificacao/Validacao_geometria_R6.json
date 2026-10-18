@@ -1,0 +1,128 @@
+{
+  "native_altium_executed": false,
+  "scope": "Readback and independent geometric checks; native Altium DRC remains required.",
+  "preserved": {
+    "components": 227,
+    "pads": 905,
+    "nets": 122,
+    "vias": 209,
+    "copper_tracks": 3358,
+    "schematic_pin_rows_crosschecked": 878,
+    "copper_geometry_and_net_assignments_unchanged": true,
+    "pcb_3d_streams_byte_identical": true,
+    "stack_and_polygon_definitions_byte_identical": true
+  },
+  "plane_checks": [
+    {
+      "layer": 2,
+      "holes": 213,
+      "obstacles_checked": 237,
+      "minimum_gap_mm": 0.1599863983683737,
+      "lost_ground_contacts": [],
+      "valid_single_connected_polygon": true
+    },
+    {
+      "layer": 3,
+      "holes": 213,
+      "obstacles_checked": 237,
+      "minimum_gap_mm": 0.1599863983683737,
+      "lost_ground_contacts": [],
+      "valid_single_connected_polygon": true
+    }
+  ],
+  "native_plane_caches_agree": true,
+  "vias_with_closed_top_and_bottom_mask": 209,
+  "mask": {
+    "minimum_separate_pad_aperture_gap_mm": 0.10999723999999844,
+    "violations_under_r6_scoped_rules": [],
+    "preexisting_merged_apertures": [
+      [
+        "J500",
+        "1",
+        "R506",
+        "1"
+      ]
+    ],
+    "fine_pitch_rule_mm": 0.1,
+    "default_rule_mm": 0.254
+  },
+  "j200_minimum_silk_mask_gap_mm": 0.29999939999999015,
+  "rules": [
+    {
+      "RULEKIND": "Clearance",
+      "NAME": "Clearance_0_15mm",
+      "SCOPE1EXPRESSION": "All",
+      "PRIORITY": "1"
+    },
+    {
+      "RULEKIND": "Width",
+      "NAME": "Width_Default",
+      "SCOPE1EXPRESSION": "All",
+      "PRIORITY": "1"
+    },
+    {
+      "RULEKIND": "RoutingVias",
+      "NAME": "Via_060_030",
+      "SCOPE1EXPRESSION": "All",
+      "PRIORITY": "1"
+    },
+    {
+      "RULEKIND": "MinimumSolderMaskSliver",
+      "NAME": "Mask_FinePitch_010mm",
+      "SCOPE1EXPRESSION": "InComponent('J100') OR InComponent('J101') OR InComponent('J102') OR InComponent('U400') OR InComponent('U600')",
+      "PRIORITY": "1"
+    },
+    {
+      "RULEKIND": "MinimumSolderMaskSliver",
+      "NAME": "Mask_Default_0254mm",
+      "SCOPE1EXPRESSION": "All",
+      "PRIORITY": "2"
+    },
+    {
+      "RULEKIND": "HoleSize",
+      "NAME": "Hole_Mounting_NPTH",
+      "SCOPE1EXPRESSION": "InComponent('H1') OR InComponent('H2') OR InComponent('H3') OR InComponent('H4') OR InComponent('H5') OR InComponent('H6') OR InComponent('H7') OR InComponent('H8')",
+      "PRIORITY": "1"
+    },
+    {
+      "RULEKIND": "HoleSize",
+      "NAME": "Hole_Default",
+      "SCOPE1EXPRESSION": "All",
+      "PRIORITY": "2"
+    },
+    {
+      "RULEKIND": "SolderMaskExpansion",
+      "NAME": "Mask_Vias_Tented",
+      "SCOPE1EXPRESSION": "IsVia",
+      "PRIORITY": "1"
+    }
+  ],
+  "mounting_holes_with_scoped_rule": 8,
+  "library": {
+    "footprints": 38,
+    "all_board_patterns_resolved": true,
+    "native_stack_restored": true,
+    "all_footprint_records_parse": true,
+    "embedded_models_byte_identical": true
+  },
+  "schematics_preserved": [
+    "CM5_HighSpeed.SchDoc",
+    "Bias_PHI.SchDoc",
+    "Power_Input_5V.SchDoc",
+    "DAC_Reference.SchDoc",
+    "Safety_Watchdog.SchDoc",
+    "Bias_I.SchDoc",
+    "TIA.SchDoc",
+    "MCU_RP2040.SchDoc",
+    "Power_Analog.SchDoc",
+    "Notes.SchDoc",
+    "CM5_GPIO.SchDoc",
+    "ADC.SchDoc",
+    "Bias_Q.SchDoc",
+    "CM5_Boot_USB.SchDoc",
+    "Safety_Window.SchDoc",
+    "Top_Level.SchDoc",
+    "Power_Neg15.SchDoc"
+  ],
+  "result": "PASS: independent checks listed above; not a native Altium DRC result."
+}

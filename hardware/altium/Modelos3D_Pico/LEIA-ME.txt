@@ -1,0 +1,7 @@
+O STEP Pico_W_SC0918_usuario.step foi extraído, sem modificar seus bytes, da biblioteca PCB-PCEIOT(1).PcbLib enviada pelo usuário. É o modelo SC0918 (Pico W).
+
+O projeto elétrico permanece com Pico SC0915. A troca se limita à representação 3D de U300; não qualifica montagem ou operação do Pico W.
+
+Ambos os STEP já estão incorporados ao PcbDoc e à PcbLib. Estes arquivos externos são cópias de apoio e não precisam ser vinculados manualmente.
+
+Pico_TH40_headers_R4.step contém somente os dois suportes e os 40 pinos extraídos do modelo anterior. A altura de 6,5 mm é ilustrativa e deve ser conferida com os conectores de montagem escolhidos.

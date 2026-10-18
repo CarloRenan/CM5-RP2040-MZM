@@ -1,0 +1,211 @@
+{
+  "data": "2026-10-17",
+  "origem_DRC": "Relatório fornecido pelo autor, 17/10/2026 20:56:27",
+  "DRC_recebido": {
+    "avisos": 0,
+    "violacoes": 8,
+    "categoria": "Hole Size Constraint, regra geral de 1 a 100 mil"
+  },
+  "correcao": "Escopos complementares para furos mecânicos NPTH maiores que 2,54 mm e demais objetos",
+  "regras_anteriores": {
+    "Hole_Mounting_NPTH": {
+      "SELECTION": "FALSE",
+      "LAYER": "TOP",
+      "LOCKED": "FALSE",
+      "POLYGONOUTLINE": "FALSE",
+      "USERROUTED": "TRUE",
+      "KEEPOUT": "FALSE",
+      "UNIONINDEX": "0",
+      "RULEKIND": "HoleSize",
+      "NETSCOPE": "AnyNet",
+      "LAYERKIND": "SameLayer",
+      "SCOPE1EXPRESSION": "InComponent('H1') OR InComponent('H2') OR InComponent('H3') OR InComponent('H4') OR InComponent('H5') OR InComponent('H6') OR InComponent('H7') OR InComponent('H8')",
+      "SCOPE2EXPRESSION": "All",
+      "NAME": "Hole_Mounting_NPTH",
+      "ENABLED": "TRUE",
+      "PRIORITY": "1",
+      "COMMENT": "R6",
+      "UNIQUEID": "28EAE22B",
+      "DEFINEDBYLOGICALDOCUMENT": "FALSE",
+      "ABSOLUTEVALUES": "TRUE",
+      "MINLIMIT": "106.25984252mil",
+      "MAXLIMIT": "126.02362205mil",
+      "MAXPERCENT": "100.000",
+      "MINPERCENT": "0.000"
+    },
+    "Hole_Default": {
+      "SELECTION": "FALSE",
+      "LAYER": "TOP",
+      "LOCKED": "FALSE",
+      "POLYGONOUTLINE": "FALSE",
+      "USERROUTED": "TRUE",
+      "KEEPOUT": "FALSE",
+      "UNIONINDEX": "0",
+      "RULEKIND": "HoleSize",
+      "NETSCOPE": "AnyNet",
+      "LAYERKIND": "SameLayer",
+      "SCOPE1EXPRESSION": "All",
+      "SCOPE2EXPRESSION": "All",
+      "NAME": "Hole_Default",
+      "ENABLED": "TRUE",
+      "PRIORITY": "2",
+      "COMMENT": "R6",
+      "UNIQUEID": "AEACB03F",
+      "DEFINEDBYLOGICALDOCUMENT": "FALSE",
+      "ABSOLUTEVALUES": "TRUE",
+      "MINLIMIT": "1mil",
+      "MAXLIMIT": "100mil",
+      "MAXPERCENT": "80.000",
+      "MINPERCENT": "20.000"
+    }
+  },
+  "regras_corrigidas": {
+    "Hole_Mounting_NPTH": {
+      "SELECTION": "FALSE",
+      "LAYER": "TOP",
+      "LOCKED": "FALSE",
+      "POLYGONOUTLINE": "FALSE",
+      "USERROUTED": "TRUE",
+      "KEEPOUT": "FALSE",
+      "UNIONINDEX": "0",
+      "RULEKIND": "HoleSize",
+      "NETSCOPE": "AnyNet",
+      "LAYERKIND": "SameLayer",
+      "SCOPE1EXPRESSION": "IsPad And (PadIsPlated = 'False') And (AsMM(HoleSize) > 2.54)",
+      "SCOPE2EXPRESSION": "All",
+      "NAME": "Hole_Mounting_NPTH",
+      "ENABLED": "TRUE",
+      "PRIORITY": "1",
+      "COMMENT": "R6",
+      "UNIQUEID": "28EAE22B",
+      "DEFINEDBYLOGICALDOCUMENT": "FALSE",
+      "ABSOLUTEVALUES": "TRUE",
+      "MINLIMIT": "106.25984252mil",
+      "MAXLIMIT": "126.02362205mil",
+      "MAXPERCENT": "100.000",
+      "MINPERCENT": "0.000"
+    },
+    "Hole_Default": {
+      "SELECTION": "FALSE",
+      "LAYER": "TOP",
+      "LOCKED": "FALSE",
+      "POLYGONOUTLINE": "FALSE",
+      "USERROUTED": "TRUE",
+      "KEEPOUT": "FALSE",
+      "UNIONINDEX": "0",
+      "RULEKIND": "HoleSize",
+      "NETSCOPE": "AnyNet",
+      "LAYERKIND": "SameLayer",
+      "SCOPE1EXPRESSION": "Not (IsPad And (PadIsPlated = 'False') And (AsMM(HoleSize) > 2.54))",
+      "SCOPE2EXPRESSION": "All",
+      "NAME": "Hole_Default",
+      "ENABLED": "TRUE",
+      "PRIORITY": "2",
+      "COMMENT": "R6",
+      "UNIQUEID": "AEACB03F",
+      "DEFINEDBYLOGICALDOCUMENT": "FALSE",
+      "ABSOLUTEVALUES": "TRUE",
+      "MINLIMIT": "1mil",
+      "MAXLIMIT": "100mil",
+      "MAXPERCENT": "80.000",
+      "MINPERCENT": "20.000"
+    }
+  },
+  "streams_alterados": [
+    "Rules6/Data"
+  ],
+  "streams_preservados": 122,
+  "geometria_e_conectividade_binaria_preservadas": true,
+  "pads_lidos": 905,
+  "furos_alvo": [
+    {
+      "name": "",
+      "component": 3,
+      "x": 97.99999958,
+      "y": 4.999997619999999,
+      "hole": 3.1999986799999998,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 13,
+      "x": 51.4999986,
+      "y": 63.49999999999999,
+      "hole": 2.69999968,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 28,
+      "x": 3.9999996199999996,
+      "y": 115.99999913999999,
+      "hole": 3.1999986799999998,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 45,
+      "x": 3.9999996199999996,
+      "y": 3.9999996199999996,
+      "hole": 3.1999986799999998,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 55,
+      "x": 18.499998559999998,
+      "y": 63.49999999999999,
+      "hole": 2.69999968,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 111,
+      "x": 18.499998559999998,
+      "y": 111.49999797999999,
+      "hole": 2.69999968,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 216,
+      "x": 51.4999986,
+      "y": 111.49999797999999,
+      "hole": 2.69999968,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 217,
+      "x": 175.99999852,
+      "y": 115.99999913999999,
+      "hole": 3.1999986799999998,
+      "plated": false
+    }
+  ],
+  "NPTH_menores_mantidos_na_regra_geral": [
+    {
+      "name": "",
+      "component": 145,
+      "x": 64.5999978,
+      "y": 110.43999756,
+      "hole": 0.6499986999999999,
+      "plated": false
+    },
+    {
+      "name": "",
+      "component": 145,
+      "x": 57.39999949999999,
+      "y": 110.43999756,
+      "hole": 0.9499981,
+      "plated": false
+    }
+  ],
+  "resultado_verificacao_independente": "8 de 8 furos relatados atendem à regra mecânica; demais pads furados atendem à regra geral",
+  "DRC_nativo_apos_correcao": "não executado neste ambiente",
+  "sha256_PcbDoc": "9ae8cf656ad96e5305e5f40fb5cf911f2622dbc20e25a7a355b35a5fdb30f9eb",
+  "fontes": [
+    "https://www.altium.com/documentation/altium-designer/pcb/query-functions/fields",
+    "https://www.altium.com/documentation/altium-designer/pcb/design-rule-types/manufacturing"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "plane_L2": {
+    "old_area_mm2": 20269.271910105323,
+    "new_area_mm2": 20214.990978952083,
+    "holes": 213,
+    "new_keepout_clearance_mm": 0.16
+  },
+  "plane_L3": {
+    "old_area_mm2": 20269.271910105323,
+    "new_area_mm2": 20214.990978952083,
+    "holes": 213,
+    "new_keepout_clearance_mm": 0.16
+  },
+  "vias_closed_mask_both_sides": 209,
+  "pads_mask_adjusted": 58,
+  "silkscreen_tracks_moved": [
+    6024,
+    6025,
+    6026
+  ],
+  "new_rules": [
+    "Mask_FinePitch_010mm",
+    "Mask_Default_0254mm",
+    "Hole_Mounting_NPTH",
+    "Hole_Default",
+    "Mask_Vias_Tented"
+  ],
+  "pcb_changed_streams": [
+    "Components6/Data",
+    "Pads6/Data",
+    "Regions6/Data",
+    "Rules6/Data",
+    "Rules6/Header",
+    "ShapeBasedRegions6/Data",
+    "Tracks6/Data",
+    "Vias6/Data"
+  ],
+  "library_native_configuration_source": "PcbLib_Source_IoT.PcbLib (biblioteca fornecida pelo usuario)",
+  "library_changed_streams": [
+    "5444262/Data",
+    "Library/Data",
+    "Library/LayerKindMapping/Data",
+    "SSOP28_DB/Data",
+    "USB_C_12401610/Data",
+    "Library/EmbeddedFonts"
+  ]
+}
