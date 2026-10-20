@@ -52,13 +52,7 @@ Abra um arquivo `.asc` em `simulacoes/LTspice` e execute **Run**. Mantenha os s�
 
 O [roteiro dos quatorze ensaios](simulacoes/README.md) relaciona cada circuito às grandezas observadas. Os gráficos e suas análises estão no [relatório LTspice](docs/relatorios/Relatorio_LTspice_CM5_RP2040_MZM_R6.docx).
 
-## Correção das regras de furação
 
-O DRC fornecido em 17/10/2026 registrava oito violações de tamanho de furo e zero nas demais categorias. Os furos de fixação de 2,7 mm e 3,2 mm estavam incluídos na regra geral de máximo 2,54 mm.
-
-A atualização utiliza escopos complementares para os furos mecânicos NPTH maiores que 2,54 mm e para os demais objetos. Mantém os diâmetros, as posições e a conectividade. Somente `Rules6/Data` foi alterado no PcbDoc; os outros 122 fluxos permaneceram idênticos. A conferência independente enquadra os oito furos no intervalo mecânico. O registro é de inspeção estrutural; não corresponde a uma execução posterior do DRC nativo.
-
-Consulte [o registro da correção](docs/verificacao/Correcao_furos_2026-10-17.json) e o [histórico da revisão](CHANGELOG.md).
 
 ## Documentação e montagem
 
