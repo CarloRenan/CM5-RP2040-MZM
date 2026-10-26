@@ -19,7 +19,7 @@ O repositório reúne o projeto nativo do Altium, 14 circuitos de simulação no
 | [Lista de compras](docs/relatorios/Lista_Compras_Prototipo_CM5_RP2040%20.xlsx) | Planilha de componentes e acessórios |
 | [Vídeo da montagem e da bancada](media/CM5_R6_Trailer_Bancada.mp4) | Animação da placa e do conjunto com MZM |
 
-Para preparar a aquisição, use a [configuração de referência do ADS1256](#configuração-do-adc-ads1256) descrita abaixo. Ela consolida a escolha do buffer e a faixa operacional para a R6.
+
 
 ## Abrir o projeto no Altium
 
