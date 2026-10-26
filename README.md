@@ -1,6 +1,6 @@
 # Controlador de polarização MZM com CM5 e RP2040
 
-**Projeto 3 · revisão R6 · alimentação externa de 15 V · documentação atualizada em 26/10/2026.**
+**Projeto 3 **
 
 Placa-base com Raspberry Pi Compute Module 5 e Raspberry Pi Pico para adquirir o sinal de um fotodiodo, gerar três tensões de polarização e supervisionar as saídas de um modulador Mach–Zehnder (MZM). O CM5 participa da supervisão; o Pico, baseado no RP2040, faz a interface com o ADC e o DAC. O acionamento dos relés depende da atividade dos dois controladores e da ausência de falha.
 
